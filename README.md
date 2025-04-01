@@ -61,10 +61,14 @@
 ## Designing a 12V AC to DC Converter
 
 ### Schematic Design in KiCad
-![Schematic Design](https://github.com/KAMAKHYA022/AC_TO_DC_CONVERTER/blob/main/SCHEMATIC.JPG) 
+![Schematic Design](https://github.com/KAMAKHYA022/AC_TO_DC_CONVERTER/blob/main/UPDATED4.JPG) 
 
 ### PCB Layout
-![PCB Layout](https://github.com/KAMAKHYA022/AC_TO_DC_CONVERTER/blob/main/PCB.JPG)
+![PCB Layout](https://github.com/KAMAKHYA022/AC_TO_DC_CONVERTER/blob/main/UPDATED2.JPG)
+
+### PCB 3D View
+![PCB 3D View](https://github.com/KAMAKHYA022/AC_TO_DC_CONVERTER/blob/main/UPDATE1.JPG)
+
 
 ### Simulation in Proteus
 ![Proteus Simulation](https://github.com/KAMAKHYA022/AC_TO_DC_CONVERTER/blob/main/proteus.JPG)
