@@ -1,20 +1,22 @@
-#AC to DC Converter PCB Project
+# AC to DC Converter PCB Project
 
-##1. Introduction
+## 1. Introduction
 
-Electrical power is supplied in two main forms: Alternating Current (AC) and Direct Current (DC). Understanding these two types of currents is essential before diving into the AC to DC conversion process.
+  Electrical power is supplied in two main forms: Alternating Current (AC) and Direct Current (DC). Understanding these two types of currents is essential before diving into the AC to DC conversion 
+  process.
 
 ##  What is AC (Alternating Current)?
 
-AC is an electrical current that periodically reverses direction. It is commonly used for power transmission and is the type of electricity supplied to homes and industries. The voltage of AC varies sinusoidally with time.
+   AC is an electrical current that periodically reverses direction. It is commonly used for power transmission and is the type of electricity supplied to homes and industries. The voltage of AC varies 
+   sinusoidally with time.
 
 ##  What is DC (Direct Current)?
 
-DC is a unidirectional flow of electric charge. It is used in batteries, electronic circuits, and low-voltage applications like mobile phones, laptops, and embedded systems.
+   DC is a unidirectional flow of electric charge. It is used in batteries, electronic circuits, and low-voltage applications like mobile phones, laptops, and embedded systems.
 
-##2. What is an AC to DC Converter?
+## 2. What is an AC to DC Converter?
 
- An AC to DC Converter is an electronic circuit that converts AC voltage into DC voltage. This is necessary because many electronic devices operate on DC power, but electrical grids provide AC power.
+   An AC to DC Converter is an electronic circuit that converts AC voltage into DC voltage. This is necessary because many electronic devices operate on DC power, but electrical grids provide AC power.
 
 ## Why is AC to DC Conversion Required?
 
@@ -24,7 +26,7 @@ DC is a unidirectional flow of electric charge. It is used in batteries, electro
 
   Batteries and microcontrollers work on DC power.
 
-##3. Types of AC to DC Converters
+## 3. Types of AC to DC Converters
 
   There are several types of AC to DC converters based on their design and working principle:
 
@@ -34,7 +36,7 @@ DC is a unidirectional flow of electric charge. It is used in batteries, electro
 
   Bridge Rectifier – Uses four diodes to provide full-wave rectification with better efficiency.
 
-##4. Designing a 12V AC to DC Converter
+## 4. Designing a 12V AC to DC Converter
 
   For this project, we design a 12V AC to DC Converter using KiCad for schematic and PCB design. The circuit includes a transformer, full-wave rectifier, smoothing capacitor, voltage regulator, and LED 
   indicator.
@@ -53,7 +55,7 @@ DC is a unidirectional flow of electric charge. It is used in batteries, electro
 
   LED Indicator (D5) – Shows power status.
 
-##5. PCB Design in KiCad
+## 5. PCB Design in KiCad
 
   The schematic is designed in KiCad, ensuring correct component placement and PCB layout. The PCB layout is optimized to minimize noise and improve efficiency.
 ## Designing a 12V AC to DC Converter
@@ -68,7 +70,7 @@ DC is a unidirectional flow of electric charge. It is used in batteries, electro
 ![Proteus Simulation](https://github.com/KAMAKHYA022/AC_TO_DC_CONVERTER/blob/main/proteus.JPG)
 
 
-6. Simulation in Proteus
+## 6. Simulation in Proteus
 
 To verify circuit functionality before manufacturing, the schematic is simulated in Proteus:
 
@@ -82,7 +84,7 @@ IC 7812 ensures a regulated 12V DC output.
 
 LED indicates circuit operation.
 
-7. Why These Components Were Chosen?
+## 7. Why These Components Were Chosen?
 
 7812 Voltage Regulator – Provides a steady 12V DC output with overvoltage protection.
 
@@ -92,7 +94,7 @@ LED indicates circuit operation.
 
 2.2kΩ Resistor (R1) with LED – Limits current to the LED for indicating circuit operation.
 
-8. Conclusion
+## 8. Conclusion
 
 This AC to DC converter provides a regulated 12V DC output from 220V AC input. The design ensures efficiency and reliability for powering various electronics. The project demonstrates PCB design, simulation, and implementation of a real-world power supply circuit.
 
@@ -106,4 +108,5 @@ Implementing a switching regulator for better efficiency.
 
 Tools Used:
 
-✅ KiCad – Schematic & PCB Design✅ Proteus – Circuit Simulation
+✅ KiCad – Schematic & PCB Design
+✅ Proteus – Circuit Simulation
