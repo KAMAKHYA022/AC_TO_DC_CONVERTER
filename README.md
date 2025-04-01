@@ -36,7 +36,7 @@ Bridge Rectifier – Uses four diodes to provide full-wave rectification with be
 
 4. Designing a 12V AC to DC Converter
 
-For this project, we design a 12V AC to DC Converter using KiCad for schematic and PCB design. The circuit includes a transformer, rectifier, smoothing capacitor, voltage regulator, and LED indicator.
+For this project, we design a 12V AC to DC Converter using KiCad for schematic and PCB design. The circuit includes a transformer, full-wave rectifier, smoothing capacitor, voltage regulator, and LED indicator.
 
 Components Used:
 
@@ -55,6 +55,17 @@ LED Indicator (D5) – Shows power status.
 5. PCB Design in KiCad
 
 The schematic is designed in KiCad, ensuring correct component placement and PCB layout. The PCB layout is optimized to minimize noise and improve efficiency.
+## 4. Designing a 12V AC to DC Converter
+
+### Schematic Design in KiCad
+![Schematic Design](https://github.com/KAMAKHYA022/AC_TO_DC_CONVERTER/blob/main/SCHEMATIC.JPG) 
+
+### PCB Layout
+![PCB Layout](https://github.com/KAMAKHYA022/AC_TO_DC_CONVERTER/blob/main/PCB.JPG)
+
+### Simulation in Proteus
+![Proteus Simulation](https://github.com/KAMAKHYA022/AC_TO_DC_CONVERTER/blob/main/proteus.JPG)
+
 
 6. Simulation in Proteus
 
